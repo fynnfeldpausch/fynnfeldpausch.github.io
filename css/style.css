@@ -26,7 +26,7 @@ h1 {
   height:28px;
   list-style:none;
   margin:0;
-  padding:0 0 0 246px;
+  padding:0 0 0 219px;
 }
 #menu li {
   display:none;
@@ -46,6 +46,8 @@ h1 {
   transition:all .1s ease-in-out;
 }
 #menu a:hover { background-size:100%; }
+#menu a#li { background-image: url("../img/linkedin.png"); }
+#menu a#li:hover { background-image: url("../img/linkedin-hover.png"); }
 #menu a#xg { background-image: url("../img/xing.png"); }
 #menu a#xg:hover { background-image: url("../img/xing-hover.png"); }
 #menu a#gh { background-image: url("../img/github.png"); }
