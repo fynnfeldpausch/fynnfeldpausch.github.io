@@ -1,5 +1,5 @@
 html {
-  background-color:#eee;
+  background:#eee url('../img/bg-wavegrid.png') repeat left top;
   min-height:76px;
   min-width:354px;
 }
