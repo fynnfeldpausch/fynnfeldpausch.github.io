@@ -26,7 +26,7 @@ h1 {
   height:28px;
   list-style:none;
   margin:0;
-  padding:0 0 0 219px;
+  padding:0 0 0 246px;
 }
 #menu li {
   display:none;
@@ -54,8 +54,6 @@ h1 {
 #menu a#gh:hover { background-image: url("../img/github-hover.png"); }
 #menu a#so { background-image: url("../img/stackoverflow.png"); }
 #menu a#so:hover { background-image: url("../img/stackoverflow-hover.png"); }
-#menu a#mr { background-image: url("../img/download.png"); }
-#menu a#mr:hover { background-image: url("../img/download-hover.png"); }
 #menu a:hover:before { display: block; }
 #menu a:before {
   color:#3d3d3d;
@@ -69,20 +67,14 @@ h1 {
   top:28px;
   width:96px;
 }
-#more {
-  color:#666;
-  display:none;
-  font:400 12px/18px 'Source Sans Pro', sans-serif;
+p.subtext {
+  height:28px;
   margin:0;
-  padding:0 16px;
-}
-#more a {
-  color:#e90011;
-  text-decoration:none;
-}
-#more dd {
-  margin:0 12px;
-  color:#999;
+  padding:0 32px 13px;
+  font:400 small-caps 15px/15px 'Source Sans Pro', sans-serif;
+  text-align:right;
+  text-transform:capitalize;
+  display:none;
 }
 .unselectable {
   -khtml-user-select:none;
