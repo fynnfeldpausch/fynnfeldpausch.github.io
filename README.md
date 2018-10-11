@@ -1,1 +1,1 @@
-Repository holding files for http://feldpausch.net/.
+Repository holding files for http://feldpausch.me/.
